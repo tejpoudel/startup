@@ -13,6 +13,9 @@ gem 'sqlite3', group: [:development, :test]
 
 #Add bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap', '~> 4.0.0'
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
 #Use postgresql as the database for production
 group :production do 
   gem 'pg'
